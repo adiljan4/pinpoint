@@ -28,5 +28,7 @@
     </bean>
 
 	<bean id="jobFailListener" class="com.navercorp.pinpoint.web.batch.JobFailListener"/>
-	
+
+	<bean id="alarmMessageSender" class="com.navercorp.pinpoint.web.alarm.AlarmMessageSenderImple"/>
+
 </beans>
